@@ -7,19 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Fondo decorativo con burbujas -->
     <div id="burbujas">
         <span></span><span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span><span></span>
     </div>
 
-    <!-- Título principal -->
     <header class="header">
         <h1>¡Un Año Juntos, Mi Amor! 🧡</h1>
         <h2 class="texto-gradiente">Nuestro amor es eterno, como esta página 🌟</h2>
     </header>
 
-    <!-- Cronología interactiva -->
     <section class="cronologia">
         <h2>Nuestra Historia 💞</h2>
         <ul>
@@ -28,21 +25,18 @@
             <li><strong>25/08/2024:</strong> Te pedí que seas mi pareja de verdad. 💍</li>
         </ul>
     </section>
-
-    <!-- Contador de días juntos -->
+    
     <section class="contador">
         <h2>¿Sabías que...?</h2>
         <p id="contador-dias">Han pasado <span id="dias"></span> días desde que nuestras vidas cambiaron para siempre. 🌟</p>
     </section>
 
-    <!-- Mensajes románticos aleatorios -->
     <section class="frases">
         <h2>Un Mensaje para Vos</h2>
         <button onclick="mostrarFrase()">Hacé clic para leer algo especial (cada vez que aprietes aparece algo distinto) 💖</button>
         <p id="frase-mensaje">💕</p>
     </section>
 
-    <!-- Carta de amor -->
     <section class="carta">
         <h2>Mi Carta para Vos, Mi querida Solcito💌</h2>
         <p>Ya pasó un año desde que nuestras vidas se cruzaron, y todavía no puedo creer cómo alguien tan increíble como vos llegó a mi mundo. Desde el primer día me atrapaste, con esa forma tan única de ser. No sé si te lo dije lo suficiente, pero tenerte en mi vida es algo que valoro más de lo que las palabras pueden explicar.</p>
@@ -53,7 +47,7 @@
         <p>Te amo, y siempre voy a dar lo mejor de mí por vos. Con todo mi corazón, <strong>Gonzalez Elias Lautaro</strong></p>
     </section>
 
-    <!-- Botón para descubrir el regalo 
+    <!--
     <div class="btn-container">
         <a href="regalo.html" class="btn-regalo">
             Descubrí tu regalo, beba <span>❤️</span>
@@ -61,9 +55,8 @@
         
     </div> -->
 
-    <!-- Script -->
+    <!-- Js -->
     <script>
-        // Contador de días
         function calcularDias() {
             const inicio = new Date("2023-11-25");
             const hoy = new Date();
@@ -72,7 +65,6 @@
         }
         calcularDias();
 
-        // Frases románticas aleatorias
         function mostrarFrase() {
             const frases = [
                 "Sos lo mejor que me pasó en la vida. ❤️",
@@ -86,7 +78,6 @@
         }
     </script>
 
-    <!-- Footer -->
     <footer>
         <p>Hecho con todo mi amor para vos, de <strong>Gonzalez Elias Lautaro</strong> ❤️</p>
         <p>Gracias por este increíble año. ¡Por muchos más juntos! ✨</p>
